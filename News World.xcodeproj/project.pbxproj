@@ -12,10 +12,6 @@
 		7B1E772E1E4E476500A5286F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E772D1E4E476500A5286F /* Assets.xcassets */; };
 		7B1E77311E4E476500A5286F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E772F1E4E476500A5286F /* LaunchScreen.storyboard */; };
 		7B1E77391E4E49A800A5286F /* NationalNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E77381E4E49A800A5286F /* NationalNewsViewController.swift */; };
-		7B1E773E1E4E4BD700A5286F /* ApplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E773A1E4E4BD700A5286F /* ApplicationController.swift */; };
-		7B1E773F1E4E4BD700A5286F /* WebConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E773B1E4E4BD700A5286F /* WebConnector.swift */; };
-		7B1E77401E4E4BD700A5286F /* WebServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E773C1E4E4BD700A5286F /* WebServiceHelper.swift */; };
-		7B1E77411E4E4BD700A5286F /* WebServiceResponseVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E773D1E4E4BD700A5286F /* WebServiceResponseVO.swift */; };
 		7B1E77431E4E4C0300A5286F /* NewsResponseVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E77421E4E4C0300A5286F /* NewsResponseVO.swift */; };
 		7B1E77461E4F00C600A5286F /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E77441E4F00C600A5286F /* NewsTableViewCell.swift */; };
 		7B1E77471E4F00C600A5286F /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E77451E4F00C600A5286F /* NewsTableViewCell.xib */; };
@@ -39,10 +35,6 @@
 		7B1E77301E4E476500A5286F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B1E77321E4E476500A5286F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B1E77381E4E49A800A5286F /* NationalNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NationalNewsViewController.swift; sourceTree = "<group>"; };
-		7B1E773A1E4E4BD700A5286F /* ApplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationController.swift; sourceTree = "<group>"; };
-		7B1E773B1E4E4BD700A5286F /* WebConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebConnector.swift; sourceTree = "<group>"; };
-		7B1E773C1E4E4BD700A5286F /* WebServiceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceHelper.swift; sourceTree = "<group>"; };
-		7B1E773D1E4E4BD700A5286F /* WebServiceResponseVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceResponseVO.swift; sourceTree = "<group>"; };
 		7B1E77421E4E4C0300A5286F /* NewsResponseVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsResponseVO.swift; sourceTree = "<group>"; };
 		7B1E77441E4F00C600A5286F /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		7B1E77451E4F00C600A5286F /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
@@ -103,10 +95,6 @@
 				7B1E772D1E4E476500A5286F /* Assets.xcassets */,
 				7B1E772F1E4E476500A5286F /* LaunchScreen.storyboard */,
 				7B1E77321E4E476500A5286F /* Info.plist */,
-				7B1E773A1E4E4BD700A5286F /* ApplicationController.swift */,
-				7B1E773B1E4E4BD700A5286F /* WebConnector.swift */,
-				7B1E773C1E4E4BD700A5286F /* WebServiceHelper.swift */,
-				7B1E773D1E4E4BD700A5286F /* WebServiceResponseVO.swift */,
 			);
 			path = "News World";
 			sourceTree = "<group>";
@@ -204,16 +192,12 @@
 			files = (
 				7B1E77531E504E8600A5286F /* EntertainmentNewsViewController.swift in Sources */,
 				7B1E774F1E50428600A5286F /* BusinessNewsViewController.swift in Sources */,
-				7B1E773E1E4E4BD700A5286F /* ApplicationController.swift in Sources */,
-				7B1E77401E4E4BD700A5286F /* WebServiceHelper.swift in Sources */,
 				7B1E774D1E4F1F6300A5286F /* NewsWebViewController.swift in Sources */,
 				7B1E774B1E4F09D200A5286F /* Article.swift in Sources */,
 				7B1E77461E4F00C600A5286F /* NewsTableViewCell.swift in Sources */,
 				7B1E77391E4E49A800A5286F /* NationalNewsViewController.swift in Sources */,
-				7B1E773F1E4E4BD700A5286F /* WebConnector.swift in Sources */,
 				7B1E77511E504B0700A5286F /* SportsNewsViewController.swift in Sources */,
 				7B1E77431E4E4C0300A5286F /* NewsResponseVO.swift in Sources */,
-				7B1E77411E4E4BD700A5286F /* WebServiceResponseVO.swift in Sources */,
 				7B1E77251E4E476500A5286F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
