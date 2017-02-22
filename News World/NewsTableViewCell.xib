@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="newsTableViewCell" id="KGk-i7-Jjw" customClass="NewsTableViewCell" customModule="News_World" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8oI-r7-NNN" userLabel="ContainerView">
+                        <rect key="frame" x="12" y="12" width="296" height="156"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aNA-Du-0OS">
+                                <rect key="frame" x="0.0" y="0.0" width="296" height="156"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6iJ-x2-Ahz">
+                                <rect key="frame" x="8" y="103" width="280" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="3uq-D1-sYl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="6iJ-x2-Ahz" firstAttribute="leading" secondItem="8oI-r7-NNN" secondAttribute="leading" constant="8" id="0Fw-4O-Fbl"/>
+                            <constraint firstItem="aNA-Du-0OS" firstAttribute="top" secondItem="8oI-r7-NNN" secondAttribute="top" id="DwK-ey-nN5"/>
+                            <constraint firstAttribute="bottom" secondItem="6iJ-x2-Ahz" secondAttribute="bottom" id="Ehl-qd-RES"/>
+                            <constraint firstAttribute="trailing" secondItem="aNA-Du-0OS" secondAttribute="trailing" id="GB5-i6-U0l"/>
+                            <constraint firstAttribute="bottom" secondItem="aNA-Du-0OS" secondAttribute="bottom" id="Ize-wO-ot3"/>
+                            <constraint firstItem="aNA-Du-0OS" firstAttribute="leading" secondItem="8oI-r7-NNN" secondAttribute="leading" id="hcJ-VF-sAZ"/>
+                            <constraint firstAttribute="trailing" secondItem="6iJ-x2-Ahz" secondAttribute="trailing" constant="8" id="yLr-Dq-kwE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.81176470588235294" green="0.8784313725490196" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="8oI-r7-NNN" secondAttribute="bottom" constant="4" id="421-pI-qFZ"/>
+                    <constraint firstItem="8oI-r7-NNN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="4" id="N6q-ga-iVX"/>
+                    <constraint firstItem="8oI-r7-NNN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="a2n-dB-MG2"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="8oI-r7-NNN" secondAttribute="trailing" constant="4" id="ikK-g2-1T8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bannerImageView" destination="aNA-Du-0OS" id="iHU-zB-3w9"/>
+                <outlet property="headingLabel" destination="6iJ-x2-Ahz" id="deZ-Ef-pDK"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="placeholder.jpg" width="512" height="290"/>
+    </resources>
+</document>
